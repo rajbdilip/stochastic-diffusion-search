@@ -21,7 +21,7 @@ class NonRepeatingRandomNumber {
 	}
 
 	public int getNextRandomNumber() {
-		if (numers.size() < 1) {
+		if (numbers.size() < 1) {
 			return Integer.MIN_VALUE;
 		} else if (numbers.size() == 1) {
 			return numbers.get(0);

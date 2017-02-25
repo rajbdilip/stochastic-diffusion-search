@@ -8,13 +8,13 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class SDS {
 
-    private static final int NUM_OF_AGENTS = 5;
+    private static final int NUM_OF_AGENTS = 6;
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("src/haystack.txt"));
         String haystack = reader.readLine();
 
-        String needle = "hello";
+        String needle = "amet";
 
         int haystackLength = haystack.length();
         int needleLength = needle.length();
